@@ -1,0 +1,97 @@
+:root {
+	--primary-color: rgb(242, 244, 181);
+	--secondary-color: rgb(243, 182, 60);
+	--pedido: rgb(78, 39, 39);
+	--producto: rgb(164, 49, 52);
+	--footer: rgb(74, 100, 46);
+}
+
+* {
+	/*border: 1px solid orange;*/
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: 'Hind', sans-serif;
+}
+
+header { 
+	background-color: var(--secondary-color);
+	height: 20vh;
+	text-align: center;
+	width: 100%;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 46px;
+	margin-top: 29px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+
+main {
+	width: 100%;
+}
+
+form {
+  font-size: 20px;
+}
+
+.orden {
+	box-sizing: border-box;
+	background-color: var(--pedido);
+	display: inline-block;
+	height: 80vh;
+	vertical-align: top;
+	width: 60%;
+}
+
+.mas-vendidos {
+	box-sizing: border-box;
+	background-color: var(--producto);
+	display: inline-block;
+  height: 80vh;
+  text-align: justify;
+	vertical-align: top;
+	width: 40%;
+}
+
+.mas-vendidos li {
+  list-style: none;
+  text-align: center;
+}
+
+.mas-vendidos img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+.pedido {
+	background-color: var(--primary-color);
+	display: inline-block;
+	height: 80vh;
+	width: 100%;
+}
+
+.nueva-comanda {
+	background-color: var(--secondary-color);
+	display: inline-block;
+}
+
+.nueva-comanda img {
+  width: 150px;
+}
+
+footer {
+	background-color:var(--footer);
+	display: inline-block;
+	height: 20vh;
+	width: 100%
+}

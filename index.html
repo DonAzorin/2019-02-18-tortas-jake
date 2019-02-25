@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="assets/img/restaurante.ico" type="image/x-icon">
+		<link rel="stylesheet" href="assets/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+		<title>Tortas y jugos Jake</title>
+	</head>
+	<body>
+		<header><h1>Tortas y jugos Jake</h1></header>
+		
+		<main>
+			<section class="orden">
+				<h2>El mejor sabor de la Alameda Central</h2>
+				<form id="orden-form">
+					<label for="variedad">Elige tu torta</label>
+          <input id="variedad" type="text" name="Sabor" placeholder="Todas son deli :D" value="chilanga">
+          <br>
+					<label for="cantidad">Cuántas quieres</label>
+					<input id="cantidad" type="number" name="cantidad"><br>
+					<label for="picante">¿Quieres picante?</label>
+					<select name="picante" id="picante">
+						<option value="rajas">rajas</option>
+						<option value="chipotle">chipotle</option>
+						<option value="ambos">rajas y chipotle</option>
+						<option value="nada">nada</option>
+					</select><br>
+					<input type="submit" value="Haz tu pedido :D">
+				</form>
+			</section><section class="mas-vendidos">
+        <h2>Acepta el desafío chilango por 300$:</h2>
+        <ul>
+          <li>1 torta chilanga con picante</li>
+          <li>1 litro de agua de jamaica</li>
+          <li>1 galleta Jake</li>
+        </ul><br>
+        <p>Si te comes todo esto en menos de 45 minutos sin dejar tu lugar, tu reto y las tortas del mes van por nuestra cuenta :D</p>
+        <img src="assets/img/torta-desafio.jpg" alt="torta del desafío">
+        <form id="desafío-form">
+          <input type="submit" value="¡Acepta el desafío!">
+        </form>
+			</section>
+		</main>
+		
+		<section class="pedido">
+			<h2>Este es tu pedido:</h2>
+			<ul id='lista'></ul>
+		</section>
+		<footer>
+      <p>Visítanos en Calle Doctor Mora 11, en el Centro Histórico de la Ciudad de México</p>
+      <p>Estamos al lado de la Alameda, cerca del metro Hidalgo</p>
+      <p>Nuestro horario es de lunes a domingo de las 10 a las 20 horas</p>
+		</footer>
+		<script src="assets/script.js"></script>
+	</body>
+</html>
