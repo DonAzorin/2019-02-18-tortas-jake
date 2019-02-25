@@ -15,9 +15,57 @@
 		<main>
 			<section class="orden">
 				<h2>El mejor sabor de la Alameda Central</h2>
-				<form id="orden-form">
-					<label for="variedad">Elige tu torta</label>
-          <input id="variedad" type="text" name="Sabor" placeholder="Todas son deli :D" value="chilanga">
+				<form id="orden-form" class="pedidos-tortas">
+          <section>
+              <label id="label-jake" class="torta-card" for="torta-jake">
+                <div class="torta-card-info">
+                    <h3 class="torta-card_flavor">Jake</h3>
+                    <p class="torta-card_info">Chorizo, piña y milanesa</p>
+                </div>
+              </label>
+              <input id="torta-jake" class="radio-input" type="radio" name="torta" value="jake">
+
+              <label id="label-galilea" class="torta-card" for="torta-galilea">
+                  <div class="torta-card-info">
+                      <h3 class="torta-card_flavor">Galilea</h3>
+                      <p class="torta-card_info">Milanesa, pechuga y pierna</p>
+                  </div>
+                </label>
+                <input id="torta-galilea" class="radio-input" type="radio" name="torta" value="galilea">
+
+                <label id="label-maribel" class="torta-card" for="torta-maribel">
+                    <div class="torta-card-info">
+                        <h3 class="torta-card_flavor">Maribel</h3>
+                        <p class="torta-card_info">Pierna, jamón, piña y quesillo</p>
+                    </div>
+                  </label>
+                  <input id="torta-maribel" class="radio-input" type="radio" name="torta" value="maribel">
+
+                  <label id="label-lucero" class="torta-card" for="torta-lucero">
+                      <div class="torta-card-info">
+                          <h3 class="torta-card_flavor">Lucero</h3>
+                          <p class="torta-card_info">Pollo, queso panela y quesillo</p>
+                      </div>
+                    </label>
+                    <input id="torta-lucero" class="radio-input" type="radio" name="torta" value="lucero">
+
+                    <label id="label-libertad" class="torta-card" for="torta-libertad">
+                        <div class="torta-card-info">
+                            <h3 class="torta-card_flavor">Libertad</h3>
+                            <p class="torta-card_info">Pechuga, pierna y salchicha</p>
+                        </div>
+                    </label>
+                    <input id="torta-libertad" class="radio-input" type="radio" name="torta" value="libertad">
+
+                    <label id="label-reto" class="torta-card" for="torta-reto">
+                        <div class="torta-card-info">
+                            <h3 class="torta-card_flavor">Reto de Jake (sólo en sucursal)</h3>
+                            <p class="torta-card_info">Tienes 45 minutos para comerte nuestra torta Don Jake que tiene pierna, milanesa, huevo, quesillo, salchicha, jamón, queso amarillo, queso panela, queso de puerco, chorizo, rajas y chipote mas un litro de agua de jamaica. Si lo logras, no pagas tu cuenta ni las tortas de la quincena.</p>
+                            <!-- Este reto lo inventé porque pienso que es lo que le hacía falta al lugar xD y los ingredientes son de la torta especial sur 12 de las Tortas Gigantes Sur 12 -->
+                            </div>
+                    </label>
+                    <input id="torta-reto" class="radio-input" type="radio" name="torta" value="reto">
+          </section>
           <br>
 					<label for="cantidad">Cuántas quieres</label>
 					<input id="cantidad" type="number" name="cantidad"><br>

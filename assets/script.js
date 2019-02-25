@@ -31,9 +31,4 @@ variedadForm.addEventListener('submit', function(){
   lista.innerHTML += comanda;
 });
 
-//`https://wa.me/5215513820832?text=Hola%20quiero%20ordenar%20${comanda}`
-//Jake: Chorizo, piña y milanesa
-//Galilea: Milanesa, pechuga y pierna
-//Maribel: Pierna, jamón, piña y quesillo
-//Lucero: Pollo, queso panela y quesillo
-//Lalo-k: Pechuga, pierna y salchicha
+//`https://wa.me/5215513820832?text=Hola%20quiero%20ordenar%20${comanda}
