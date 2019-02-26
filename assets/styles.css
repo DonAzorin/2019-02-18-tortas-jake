@@ -44,33 +44,109 @@ form {
 }
 
 .orden {
-	box-sizing: border-box;
-	background-color: var(--pedido);
-	display: inline-block;
-	height: 80vh;
-	vertical-align: top;
-	width: 60%;
+  box-sizing: border-box;
+  background-color: var(--pedido);
+  display: inline-block;
+  margin: auto;
+  vertical-align: top;
+  width: 60%;
 }
 
-.mas-vendidos {
-	box-sizing: border-box;
-	background-color: var(--producto);
-	display: inline-block;
-  height: 80vh;
-  text-align: justify;
-	vertical-align: top;
-	width: 40%;
+#label-jake {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/jake.png');
 }
 
-.mas-vendidos li {
-  list-style: none;
+#label-galilea {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/galilea.jpeg');
+}
+
+#label-maribel {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/maribel.jpeg');
+}
+
+#label-lucero {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/lucero.jpeg');
+}
+
+#label-libertad {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/libertad.jpeg');
+}
+
+#label-reto {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/reto.jpeg');
+}
+
+.torta-card {
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 3px 5px 0px black;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 200px;
+  margin: 20px;
+  padding: 60px 0;
+  transition: all .4s;
+  width: 200px;
+  vertical-align: top;
+}  
+
+.torta-card-reto {
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 3px 5px 0px black;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  height: 250px;
+  margin: 20px;
+  padding: 60px 0;
+  transition: all .4s;
+}  
+
+.torta-card:hover, .torta-card-reto:hover {
+  transform: scale(1.05);
+}
+
+.torta-card:active, .torta-card-reto:active {
+  border: 5px solid var(--footer);
+  transform: scale(1.03);
+}
+
+.torta-card.active, .torta-card-reto.active{
+  border: 5px solid var(--footer);
+  transform: scale(1.03);
+  box-shadow: none;
+}
+
+.radio-input {
+  display: none;
+}    
+
+.torta-card_flavor {
+  color: white;
+  font-family:Lato;
+  font-size: 40px;
   text-align: center;
 }
 
-.mas-vendidos img {
-  display: block;
-  margin: auto;
-  width: 90%;
+.torta-card_info {
+  color: white;
+  font-family:Lato;
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.revisar-pedido {
+	box-sizing: border-box;
+	background-color: var(--producto);
+	display: inline-block;
+  text-align: justify;
+	vertical-align: top;
+	width: 40%;
 }
 
 .pedido {
