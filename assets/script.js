@@ -1,13 +1,15 @@
 //formulario
-const variedadForm = document.querySelector('#orden-form');
+const ordenForm = document.querySelector('#orden-form');
 //entradas
-const variedad = document.querySelector('#variedad');
+const sabor = ordenForm.torta;
 const cantidad = document.querySelector('#cantidad');
 const picante = document.querySelector('#picante')
 //secciones
 const lista = document.querySelector('#lista');
+//cards
+const tortaCards = document.getElementsByClassName('torta-card');
 
-variedadForm.addEventListener('submit', function(){
+ordenForm.addEventListener('submit', function(){
   event.preventDefault();
   console.log('detuvimos el submit');
   const variedadElegida = variedad.value;

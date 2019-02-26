@@ -17,6 +17,8 @@
 				<h2>El mejor sabor de la Alameda Central</h2>
 				<form id="orden-form" class="pedidos-tortas">
           <section>
+            <!-- Agregar un flip horizontal para que al reverso se añada cantidad y si van con picante -->
+            <!-- https://www.w3schools.com/howto/howto_css_flip_card.asp -->
               <label id="label-jake" class="torta-card" for="torta-jake">
                 <div class="torta-card-info">
                     <h3 class="torta-card_flavor">Jake</h3>
@@ -57,6 +59,7 @@
                     </label>
                     <input id="torta-libertad" class="radio-input" type="radio" name="torta" value="libertad">
 
+                    <!-- Agregar un flip vertical para que informe de las reglas -->
                     <label id="label-reto" class="torta-card-reto" for="torta-reto">
                         <div class="torta-card-info">
                             <h3 class="torta-card_flavor">Reto de Jake (sólo en sucursal)</h3>
@@ -66,6 +69,7 @@
                     </label>
                     <input id="torta-reto" class="radio-input" type="radio" name="torta" value="reto">
           </section>
+          <!-- Esto irá en los flip, necesitarás factorizar
           <br>
 					<label for="cantidad">Cuántas quieres</label>
 					<input id="cantidad" type="number" name="cantidad"><br>
@@ -75,7 +79,7 @@
 						<option value="chipotle">chipotle</option>
 						<option value="ambos">rajas y chipotle</option>
 						<option value="nada">nada</option>
-					</select><br>
+					</select><br> -->
 					<input type="submit" value="Haz tu pedido :D">
 				</form>
 			</section><section class="revisar-pedido">
