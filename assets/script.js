@@ -33,4 +33,13 @@ ordenForm.addEventListener('submit', function(){
   lista.innerHTML += comanda;
 });
 
-//`https://wa.me/5215513820832?text=Hola%20quiero%20ordenar%20${comanda}
+//let msj = confirm("Al dar click en Aceptar, nos enviarás un WhatsApp con tu pedido. Si quiere revisar algo, haz click en Cancelar.");
+//alert (msj);
+//if (msj == true) {
+//   function () {
+//     var send = window.open("https://wa.me/5215513820832?text=Hola%20quiero%20ordenar%20${comanda}", "_blank")
+//     win.focus();
+//     //agregar un listener para que al mandar mensaje, se cierre la pestaña actual (se puede con el tab de WA???)
+
+//   }
+// }
